@@ -12,4 +12,4 @@ select *from db_employee  where (select e.first_name ,e.last_name,e.salary,d.dep
 
 update db_employee set gender='M' where gender is null;
 set sql_safe_updates=0;
-update db_employee set gender='F' where id=21002;
+update db_employee set gender='F' where id=21002;   
